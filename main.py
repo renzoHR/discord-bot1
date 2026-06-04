@@ -126,7 +126,7 @@ async def avisos():
                 torneo["aviso5"] = True
 
 
-        if torneo["hora"] == ahora and not torneo["avisado"]:
+        if faltan <= 0 and faltan > -60 and not torneo["avisado"]:
 
             if canal:
                 embed = discord.Embed(
