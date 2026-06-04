@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands, tasks
-from datetime import datetime
+from datetime import datetime, timedelta
 import asyncio
 import os
 import json
@@ -97,7 +97,7 @@ async def avisos():
 
     for torneo in torneos:
 
-        hora_actual = datetime.now()
+        hora_actual = datetime.now() - timedelta(hours=5)
 
         hora_torneo = datetime.strptime(torneo["hora"], "%H:%M")
 
