@@ -130,14 +130,14 @@ async def avisos():
 
             if canal:
                 embed = discord.Embed(
-                    title="🚨 YA COMENZÓ EL TORNEO",
+                    title="🚨 YA MANDARON EL TORNEO",
                     description=f"🏆 {torneo['nombre']}",
                     color=discord.Color.red()
                 )
 
                 embed.set_footer(text="Bloodys Tournament System")
 
-                await canal.send(embed=embed)
+                await canal.send("@Bloody ", embed=embed)
 
             torneo["avisado"] = True
 
