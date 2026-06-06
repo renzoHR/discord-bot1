@@ -28,6 +28,11 @@ def cargar_torneos():
     return []
 
 torneos = cargar_torneos()
+
+for torneo in torneos:
+    torneo.setdefault("aviso5", False)
+    torneo.setdefault("avisado", False)
+
 if not torneos:
     torneos = [
         {"hora":"15:00","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False,"aviso5":False},
@@ -91,8 +96,16 @@ async def agregar(ctx, *, texto):
 
     await ctx.send("✅ Eventos agregados correctamente.")
 
+fecha_actual = datetime.now().date()
+
 @tasks.loop(seconds=30)
 async def avisos():
+    global fecha_actual
+    if datetime.now().date() != fecha_actual:
+        fecha_actual = datetime.now().date()
+        for torneo in torneos:
+            torneo["avisado"] = False
+            torneo["aviso5"] = False
     ahora = datetime.now().strftime("%H:%M")
 
     for torneo in torneos:
