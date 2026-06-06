@@ -138,7 +138,10 @@ async def avisos():
                 embed.set_footer(text="Bloodys Tournament System")
 
                 rol = discord.utils.get(canal.guild.roles, name="Bloody")
-                await canal.send(f"{rol.mention}", embed=embed)
+                if rol:
+                    await canal.send(f"{rol.mention}", embed=embed)
+                else:
+                    await canal.send(embed=embed)
 
             torneo["avisado"] = True
 
