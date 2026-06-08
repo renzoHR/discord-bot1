@@ -16,26 +16,10 @@
         "aviso5": false
     },
     {
-        "hora": "16:15",
-        "nombre": "🥇 Domina (Bandas)",
-        "puntos": "",
-        "rank": "No rank",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
         "hora": "16:30",
         "nombre": "🏆 Torneo bandas (2v2)",
         "puntos": "x1 pts",
         "rank": "Rank F4",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
-        "hora": "17:15",
-        "nombre": "🥇 Domina (Bandas)",
-        "puntos": "",
-        "rank": "No rank",
         "avisado": false,
         "aviso5": false
     },
@@ -56,14 +40,6 @@
         "aviso5": false
     },
     {
-        "hora": "19:00",
-        "nombre": "⛈️ Tanda de Tormentas (8 tormentas)",
-        "puntos": "",
-        "rank": "Rank F7",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
         "hora": "20:00",
         "nombre": "🏆 Torneo bandas (3v3)",
         "puntos": "x1 pts",
@@ -72,34 +48,10 @@
         "aviso5": false
     },
     {
-        "hora": "20:40",
-        "nombre": "🪂 x1 Battle Royale",
-        "puntos": "",
-        "rank": "Rank F7",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
         "hora": "21:00",
         "nombre": "🏆 MEGA TORNEO 5v5-10v10",
         "puntos": "x3 pts",
         "rank": "Rank F4",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
-        "hora": "22:00",
-        "nombre": "🪂 MEGA BATTLE ROYALE",
-        "puntos": "",
-        "rank": "Rank F7",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
-        "hora": "22:30",
-        "nombre": "🎁 DROP DEL DÍA",
-        "puntos": "x1 pts",
-        "rank": "Rank F9",
         "avisado": false,
         "aviso5": false
     },
@@ -116,14 +68,6 @@
         "nombre": "🏆 Torneo bandas (4v4)",
         "puntos": "",
         "rank": "",
-        "avisado": false,
-        "aviso5": false
-    },
-    {
-        "hora": "00:30",
-        "nombre": "🥇 Domina (Bandas)",
-        "puntos": "",
-        "rank": "No rank",
         "avisado": false,
         "aviso5": false
     },
