@@ -41,7 +41,7 @@
     },
     {
         "hora": "20:00",
-        "nombre": "🏆 Torneo bandas (3v3)",
+        "nombre": "🏆 Torneo bandas (4v4)",
         "puntos": "x1 pts",
         "rank": "Rank F4",
         "avisado": false,
@@ -57,7 +57,7 @@
     },
     {
         "hora": "22:45",
-        "nombre": "🏆 Torneo bandas (4v4)",
+        "nombre": "🏆 Torneo bandas (5v5)",
         "puntos": "x1 pts",
         "rank": "Rank F4",
         "avisado": false,
@@ -73,7 +73,7 @@
     },
     {
         "hora": "00:45",
-        "nombre": "🏆 Torneo bandas (3v3)",
+        "nombre": "🏆 Torneo bandas (4v4)",
         "puntos": "x1 pts",
         "rank": "Rank F4",
         "avisado": false,
@@ -97,10 +97,19 @@
     },
     {
         "hora": "02:45",
-        "nombre": "🏆 Torneo bandas (2v2)",
+        "nombre": "🏆 Torneo bandas (3v3)",
         "puntos": "",
         "rank": "Rank F4",
         "avisado": false,
         "aviso5": false
+    },
+    {
+        "hora": "03:30",
+        "nombre": "🏆 Torneo bandas (2v2)",
+        "puntos": "x1 pts",
+        "rank": "Rank F4",
+        "avisado": false,
+        "aviso5": false
     }
+    
 ]
