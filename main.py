@@ -35,20 +35,22 @@ for torneo in torneos:
 
 if not torneos:
     torneos = [
-        {"hora":"15:00","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False,"aviso5":False},
-        {"hora":"15:30","nombre":"🏆 Torneo bandas (2v2)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"16:30","nombre":"🏆 Torneo bandas (2v2)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"17:30","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"18:30","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False,"aviso5":False},
-        {"hora":"20:00","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"21:00","nombre":"🏆 MEGA TORNEO 5v5-10v10","puntos":"x3 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"22:45","nombre":"🏆 Torneo bandas (4v4)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"23:30","nombre":"🏆 Torneo bandas (4v4)","puntos":"","rank":"","avisado":False,"aviso5":False},
-        {"hora":"00:45","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"01:30","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False,"aviso5":False},
-        {"hora":"02:00","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False,"aviso5":False},
-        {"hora":"02:45","nombre":"🏆 Torneo bandas (2v2)","puntos":"","rank":"Rank F4","avisado":False,"aviso5":False}
-    ]
+    {"hora":"15:00","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False},
+    {"hora":"15:30","nombre":"🏆 Torneo bandas (2v2)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"16:30","nombre":"🏆 Torneo bandas (2v2)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"17:30","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"18:30","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False},
+    {"hora":"20:00","nombre":"🏆 Torneo bandas (4v4)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"21:00","nombre":"🏆 MEGA TORNEO 5v5-10v10 (Sorteo)","puntos":"x3 pts","rank":"Rank F4","avisado":False},
+    {"hora":"22:45","nombre":"🏆 Torneo bandas (5v5)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"23:30","nombre":"🏆 Torneo bandas (4v4)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+
+    {"hora":"00:45","nombre":"🏆 Torneo bandas (4v4)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"01:30","nombre":"🏆 Torneo 1v1","puntos":"x1 pts","rank":"Rank F1","avisado":False},
+    {"hora":"02:00","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"02:45","nombre":"🏆 Torneo bandas (3v3)","puntos":"x1 pts","rank":"Rank F4","avisado":False},
+    {"hora":"03:30","nombre":"🏆 Torneo bandas (2v2)","puntos":"x1 pts","rank":"Rank F4","avisado":False}
+]
 
     guardar_torneos()
 
