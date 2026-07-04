@@ -118,7 +118,7 @@ async def avisos():
 
         faltan = (hora_torneo - hora_actual).total_seconds()
 
-        canal = discord.utils.get(bot.get_all_channels(), name="💬-general")
+        canal = discord.utils.get(bot.get_all_channels(), name="horario-torneos")
         if faltan <= 300 and faltan > 0 and not torneo.get("aviso5"):
 
                 if canal:
